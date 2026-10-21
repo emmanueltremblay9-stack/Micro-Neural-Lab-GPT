@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "document_version": "0.1.1",
   "document_role": "SOURCE_INDEX_AND_INTEGRATION_PROFILE",
-  "document_status": "GITHUB_BOOTSTRAP_PENDING_READBACK",
+  "document_status": "GITHUB_INTEGRATED_CHATGPT_NOT_INSTALLED",
   "prepared_on": "2026-10-20",
   "timezone": "America/Toronto",
   "project": {
@@ -23,17 +23,19 @@
     "canonical_branch": "main",
     "default_branch_observed": "main",
     "preflight": "GitHub returned Git Repository is empty; no branches were returned.",
-    "verified_commit_sha": null,
-    "verified_commit_scope": "PENDING_READBACK",
-    "integration_state": "PENDING_READBACK",
+    "verified_commit_sha": "603384eb7ce6d029eeab9279cc2be3fc3c4206eb",
+    "verified_commit_scope": "12_FILE_BOOTSTRAP_PREDECESSOR; not the commit containing this receipt and reconciliation.",
+    "integration_state": "VERIFIED_BOOTSTRAP",
     "governance_location_requirement": "GitHub",
     "authorization": "User supplied the exact repository URL to continue the requested installation; see MNL-DEC-007.",
-    "observation": "Exact repository selected and accessible; public visibility and push rights observed. Initial private destination was only a proposal.",
+    "observation": "Public repository selected by the user; main established and the complete 12-file bootstrap read back with exact content equality. The containing reconciliation commit requires final readback reported externally.",
     "historical_initial_proposal": {
       "visibility": "private",
       "state": "SUPERSEDED_FOR_DESTINATION_ONLY_BY_MNL-DEC-007"
     },
-    "commit_receipt_rule": "A verified predecessor SHA identifies its own readback scope. The containing commit SHA is reported outside its own contents after final readback."
+    "commit_receipt_rule": "A verified predecessor SHA identifies its own readback scope. The containing commit SHA is reported outside its own contents after final readback.",
+    "verified_at_utc": "2026-10-21T04:10:25Z",
+    "integration_receipt": "evidence/GITHUB_INTEGRATION.json"
   },
   "chatgpt": {
     "project_locator": null,
@@ -94,7 +96,7 @@
   ],
   "single_work_queue": {
     "path": "WORK_QUEUE.md",
-    "state": "GITHUB_INSTALLATION_IN_PROGRESS",
+    "state": "CANONICAL_GITHUB",
     "alternate_live_queues": [],
     "switch_rule": "Décision et migration explicites ; ancienne file transformée en index ou instantané."
   },
@@ -122,12 +124,14 @@
     "checksums": "evidence/SHA256SUMS.txt",
     "behavioral_tests": "NOT_RUN",
     "training_runs": "NOT_RUN",
-    "target_benchmarks": "NOT_RUN"
+    "target_benchmarks": "NOT_RUN",
+    "github_integration": "evidence/GITHUB_INTEGRATION.json"
   },
   "maintenance": {
     "update_trigger": "Changement réel de rôle, destination, version ou état prouvé.",
     "integration_reconciliation": "Rapprocher manifeste, README et WORK_QUEUE selon le reçu relu ; préserver les constats anciens comme historiques.",
     "source_conflict_rule": "Comparer rôle, version et commit ; exposer le conflit sans préférence par suffixe.",
     "unavailable_source_rule": "Poursuivre depuis la base connue ; changements préparés non synchronisés."
-  }
+  },
+  "updated_on": "2026-10-21"
 }

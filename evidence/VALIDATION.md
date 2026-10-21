@@ -1,6 +1,6 @@
 # Validation — Micro Neural Lab v0.1.1
 
-**Contrôle local exécuté à :** 2026-10-21T04:00:20Z  
+**Contrôle local exécuté à :** 2026-10-21T04:11:35Z  
 **Portée :** révision documentaire pour la destination GitHub désignée.  
 **Verdict local :** PASS_FILES. La portée de relecture distante est décrite séparément ci-dessous.
 
@@ -36,9 +36,9 @@ Pour cette intégration, un relecteur distinct a défini les retouches minimales
 
 ## Intégration GitHub
 
-Dépôt identifié, public, accessible et confirmé vide avant initialisation. Écriture du socle et relecture au SHA réel en attente.
+Socle initial de 12 fichiers relu intégralement au commit `603384eb7ce6d029eeab9279cc2be3fc3c4206eb`, avec égalité exacte des contenus. Le reçu en conserve les empreintes et la portée.
 
-Aucun résultat de relecture distante n’est encore revendiqué dans cette version intermédiaire.
+Cette révision rapproche les états et ajoute le reçu du socle antérieur. La relecture de son propre commit doit être effectuée après écriture et rapportée dans le compte rendu final, hors de ses propres octets.
 
 ## Limites et prochaine étape
 

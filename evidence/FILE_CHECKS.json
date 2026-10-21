@@ -1,6 +1,6 @@
 {
   "package_version": "0.1.1",
-  "checked_at_utc": "2026-10-21T04:00:20Z",
+  "checked_at_utc": "2026-10-21T04:11:35Z",
   "scope": "Current local content checks; remote evidence refers only to the explicitly identified predecessor commit.",
   "instructions": {
     "code_points": 7978,
@@ -27,7 +27,7 @@
   },
   "initial_v010_archive_preserved": true,
   "initial_v010_instructions_preserved": true,
-  "internal_markdown_links_checked": 9,
+  "internal_markdown_links_checked": 10,
   "input_file_measurements": [
     {
       "path": "DECISIONS.md",
@@ -59,17 +59,17 @@
     },
     {
       "path": "PROJECT_MANIFEST.json",
-      "bytes": 5436,
-      "unicode_code_points": 5405,
-      "sha256": "40df585232362978ea891b42c23913ab899546ecaf04dd5db366513205cbb520",
-      "git_blob_sha1": "c8d060398c22b424a8849e5d796e16b378503069"
+      "bytes": 5820,
+      "unicode_code_points": 5789,
+      "sha256": "660427f05f8f4a0c2121068e8860533f2eb7766ff58ccfbc92c3fc47c12276af",
+      "git_blob_sha1": "efd0fbb078e19629e64fd277b473ba204f02201f"
     },
     {
       "path": "README.md",
-      "bytes": 8991,
-      "unicode_code_points": 8641,
-      "sha256": "fb8d505b03eedab6ba45d067dcf7bd75cfb9f2b934a910aac1916692f098cbc2",
-      "git_blob_sha1": "4bdadcd23450cb98a5d8ff98a7992b37322b57fd"
+      "bytes": 9140,
+      "unicode_code_points": 8779,
+      "sha256": "879df92a9c60f235304938f67246955686f854ac76dfd1b50cedb8e4b42b7e24",
+      "git_blob_sha1": "e4cc1124b6e1f66e0e4a6b9e80b412778a1fb8bc"
     },
     {
       "path": "TIMESTAMP_MACHINE_SHARED_PROJECT_SOURCE_v1.3.0.md",
@@ -80,28 +80,35 @@
     },
     {
       "path": "WORK_QUEUE.md",
-      "bytes": 3484,
-      "unicode_code_points": 3326,
-      "sha256": "626b15cab873552c51671b8777b94318d2b9c7dc5fe64e044789bc03bb1c4878",
-      "git_blob_sha1": "5730e2e2e4ea5a96f4edc72a2a7f9d1fb9a96106"
+      "bytes": 3732,
+      "unicode_code_points": 3576,
+      "sha256": "90ed0e870d33eb5e663ac29017542b0491adf818638f6d0ad9f0f98eb396aa33",
+      "git_blob_sha1": "7652e0448fa0e2427df79fc6806baa6361a11a04"
+    },
+    {
+      "path": "evidence/GITHUB_INTEGRATION.json",
+      "bytes": 5866,
+      "unicode_code_points": 5866,
+      "sha256": "6b0c7a0488462f9bb36a1fc6100e8cea259ef6ffd7b8d349324408d8b4723cc7",
+      "git_blob_sha1": "cc5b96dafc9b6abedc9d8d08ab47160a3a3a8cd7"
     },
     {
       "path": "evidence/SOURCE_BASIS.md",
-      "bytes": 6466,
-      "unicode_code_points": 6236,
-      "sha256": "d9b2ed56333320434c142513ad12aeea5e6dca878162b78cd56119b8cbf0fa1b",
-      "git_blob_sha1": "26e34f6857ba62900f06d32063a7983d6dfa11b7"
+      "bytes": 6663,
+      "unicode_code_points": 6428,
+      "sha256": "6b2e12d9da7c8c656ae1c138f3099743328b74124aa5afde7db251cd13195a8b",
+      "git_blob_sha1": "492938be8cd976b763f3800d3701da45df298513"
     },
     {
       "path": "evidence/VALIDATION.md",
-      "bytes": 4078,
-      "unicode_code_points": 3923,
-      "sha256": "5aedf5a7cf29471a82586ed48aa5f0afcb622735b652b3e51a9ae7a42e7aa252",
-      "git_blob_sha1": "b31901c615c1cf950120050a61727cccb2e9b984"
+      "bytes": 4252,
+      "unicode_code_points": 4094,
+      "sha256": "2459fc7e229d38cb1c735f5459dc354a1fa18d6d4f55ce4ef03595833aba14ec",
+      "git_blob_sha1": "f2fc1a5747ac8cbe72d1af7f5c49085ed86e3ee4"
     }
   ],
-  "github_integration": "PENDING_READBACK",
-  "verified_predecessor_commit_sha": null,
+  "github_integration": "VERIFIED_PREDECESSOR_RECONCILIATION_PENDING_FINAL_READBACK",
+  "verified_predecessor_commit_sha": "603384eb7ce6d029eeab9279cc2be3fc3c4206eb",
   "chatgpt_integration": "NOT_PERFORMED",
   "behavioral_tests": "NOT_RUN",
   "training": "NOT_RUN",

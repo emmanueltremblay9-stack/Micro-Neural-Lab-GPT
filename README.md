@@ -1,6 +1,6 @@
 # Dirty Studyo — Micro Neural Lab
 
-**Version :** 0.1.1 — GITHUB_BOOTSTRAP_PENDING_READBACK  
+**Version :** 0.1.1 — GITHUB_INTEGRATED / CHATGPT_NOT_INSTALLED  
 **Nom :** nom de travail proposé  
 **Date de préparation :** 2026-10-20 — America/Toronto  
 **Objet :** Project ChatGPT spécialisé dans la création de micro-réseaux neuronaux, avec gouvernance canonique sur GitHub.
@@ -20,7 +20,7 @@ Le domaine inclut les MLP, CNN compacts, modèles temporels, autoencodeurs et po
 | Dépôt GitHub | Désigné explicitement par l’utilisateur ; MNL-DEC-007 |
 | Corpus et champ Instructions | Produits ; voir le rapport de validation |
 | Compte GitHub connecté | Identifié par le connecteur pendant cette préparation |
-| Intégration GitHub | Dépôt public accessible et vide ; dépôt du socle et relecture en cours |
+| Intégration GitHub | Socle de 12 fichiers intégré et relu au SHA consigné ; reçu ajouté dans cette révision |
 | Projet ChatGPT et champ installé | NON EFFECTUÉS / non vérifiés dans la destination |
 | Modèle entraîné ou benchmark | NOT_RUN ; cette livraison construit le projet |
 | Timestamp de cette nouvelle cible | NOT_TESTED ; adoption et écritures non autorisées |
@@ -32,10 +32,10 @@ Historique v0.1.0 : le dossier était préparé, sans intégration distante. L�
 - Dépôt désigné : [emmanueltremblay9-stack/Micro-Neural-Lab-GPT](https://github.com/emmanueltremblay9-stack/Micro-Neural-Lab-GPT).
 - Identifiant GitHub observé : `1427851195`.
 - Visibilité observée : **publique** ; aucun changement de visibilité effectué.
-- Branche canonique prévue pour cette initialisation : `main`, branche par défaut déclarée par GitHub.
-- État courant : écriture et relecture du socle en cours ; aucun SHA vérifié encore consigné dans cette version intermédiaire.
+- Branche canonique : `main`, créée par l’initialisation et vérifiée par lecture de sa référence.
+- Socle vérifié : `603384eb7ce6d029eeab9279cc2be3fc3c4206eb` ; voir [le reçu d’intégration](evidence/GITHUB_INTEGRATION.json). Ce SHA identifie le socle antérieur relu, pas le commit contenant son reçu.
 
-Le manifeste est l’index des sources et des états. GitHub devient le lieu canonique après intégration vérifiée. Une pièce jointe au Project est un instantané identifié par sa provenance ; aucune synchronisation permanente n’est présumée. La proposition privée initiale est conservée comme historique dans les décisions.
+Le manifeste est l’index des sources et des états. Ce dépôt est désormais le lieu canonique de la gouvernance, après relecture du socle. Une pièce jointe au Project est un instantané identifié par sa provenance ; aucune synchronisation permanente n’est présumée. La proposition privée initiale est conservée comme historique dans les décisions.
 
 ## Contenu à utiliser
 
@@ -57,9 +57,9 @@ Les guides HQ employés pour concevoir ce dossier ne deviennent pas les sources 
 
 ### 1. GitHub
 
-Le dépôt a été désigné par l’utilisateur et confirmé vide par GitHub avant l’initialisation. Le socle documentaire est destiné à sa racine, avec `evidence/`. Le reçu privé de traçabilité HQ et les pièces jointes HQ d’origine ne font pas partie de cette publication ; seule la source Timestamp commune, générique et inchangée, est incluse.
+Le dépôt a été désigné par l’utilisateur et confirmé vide par GitHub avant l’initialisation. Le socle documentaire est intégré à sa racine, avec `evidence/`, et ses 12 fichiers ont été relus intégralement au commit consigné. Le reçu privé de traçabilité HQ et les pièces jointes HQ d’origine ne font pas partie de cette publication ; seule la source Timestamp commune, générique et inchangée, est incluse.
 
-Après écriture, relire chaque fichier au commit créé, comparer les contenus et vérifier la référence `main`. Enregistrer le reçu de cette lecture dans un commit suivant et rapprocher le manifeste, les états du README et `WORK_QUEUE.md`. Le reçu décrit le commit antérieur réellement relu : il ne prétend pas contenir le SHA du commit qui le crée. La relecture finale de ce second commit est rapportée dans le compte rendu de livraison.
+Le reçu ajouté dans cette révision décrit la relecture du socle de 12 fichiers. Le manifeste, ce README et la file sont rapprochés de ce résultat. Le reçu décrit le commit antérieur réellement relu : il ne prétend pas contenir le SHA du commit qui le crée. La relecture finale de cette révision de 13 fichiers est rapportée dans le compte rendu de livraison, hors de ses propres octets.
 
 Pour les évolutions ultérieures, préparer une branche et un diff ou une PR selon le mandat, préserver les contributions existantes et vérifier la portée de fusion. Conserver les constats antérieurs comme historiques datés.
 

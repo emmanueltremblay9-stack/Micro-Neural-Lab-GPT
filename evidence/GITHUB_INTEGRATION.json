@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "GITHUB_GOVERNANCE_INTEGRATION_READBACK",
+  "repository_full_name": "emmanueltremblay9-stack/Micro-Neural-Lab-GPT",
+  "repository_id": 1427851195,
+  "repository_url": "https://github.com/emmanueltremblay9-stack/Micro-Neural-Lab-GPT",
+  "visibility_observed": "public",
+  "branch": "main",
+  "authorization": "MNL-DEC-007: user supplied this exact repository as the destination for the requested installation.",
+  "preflight": {
+    "repository_state": "EMPTY",
+    "evidence": "No branches returned; commits endpoint returned 409 Git Repository is empty.",
+    "existing_files_preserved": "No existing files or commits at preflight.",
+    "visibility_changed": false
+  },
+  "initialization_commit_sha": "d1ca4f10ef1ed90362306d19c793c4c7ae39dbd6",
+  "verified_commit_sha": "603384eb7ce6d029eeab9279cc2be3fc3c4206eb",
+  "verified_tree_sha": "d9071196e725383b654c4acfe71e16a43cce4d73",
+  "verified_at_utc": "2026-10-21T04:10:25Z",
+  "branch_head_at_readback": "603384eb7ce6d029eeab9279cc2be3fc3c4206eb",
+  "readback": {
+    "result": "PASS_EXACT_CONTENT",
+    "method": "Fetch every full UTF-8 file at the immutable commit; exact string equality plus Git blob SHA-1 equality against the submitted UTF-8 bytes. Read recursive tree and branch ref.",
+    "file_count": 12,
+    "tree_truncated": false,
+    "exact_tree_file_set": true,
+    "files": [
+      {
+        "path": "DECISIONS.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "ae3f955e3dce0397312dbafca85e528c1a765c7d",
+        "sha256": "5119eaecb90672012711e7d0815ec8df6e1a8ee0345c3bee1cb3fa76a2700684",
+        "bytes": 6719
+      },
+      {
+        "path": "NEURAL_ENGINEERING.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "016fdb427c5994a9e8e971044c44f8a6f7df27b8",
+        "sha256": "20fa68f1dc99aa68a57a800dc7f72679f9a9820541f478c71d8e19cba4d99868",
+        "bytes": 15702
+      },
+      {
+        "path": "PROJECT_CHARTER.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "ea723032367321a07fad6a8dab4fcf16f5de666a",
+        "sha256": "653dc565366131f411a295d994df6e166599398b8a02f67bf6bced7482e5eac6",
+        "bytes": 10283
+      },
+      {
+        "path": "PROJECT_INSTRUCTIONS.txt",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "4333b97591bb56d65358c4709215e771a0f91dc0",
+        "sha256": "b6476acc085ca5e02b8058120c8eb0efe8320c3fe33de5e8209ab7ff1e4670f3",
+        "bytes": 8319
+      },
+      {
+        "path": "PROJECT_MANIFEST.json",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "c8d060398c22b424a8849e5d796e16b378503069",
+        "sha256": "40df585232362978ea891b42c23913ab899546ecaf04dd5db366513205cbb520",
+        "bytes": 5436
+      },
+      {
+        "path": "README.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "4bdadcd23450cb98a5d8ff98a7992b37322b57fd",
+        "sha256": "fb8d505b03eedab6ba45d067dcf7bd75cfb9f2b934a910aac1916692f098cbc2",
+        "bytes": 8991
+      },
+      {
+        "path": "TIMESTAMP_MACHINE_SHARED_PROJECT_SOURCE_v1.3.0.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "b55b29d5222f693510bb1339ce2153693f85643c",
+        "sha256": "a0fc66bd17873b732be08fd26165d5f47afeb5b0e82e7d3cbe0cb4977821061a",
+        "bytes": 24461
+      },
+      {
+        "path": "WORK_QUEUE.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "5730e2e2e4ea5a96f4edc72a2a7f9d1fb9a96106",
+        "sha256": "626b15cab873552c51671b8777b94318d2b9c7dc5fe64e044789bc03bb1c4878",
+        "bytes": 3484
+      },
+      {
+        "path": "evidence/FILE_CHECKS.json",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "a7ee3788b5d786bce42e5cedcd2fc69be75ebd8a",
+        "sha256": "26d6e7e71da55964c38053215de0de478658775227f6f5948389f5a490a0af9e",
+        "bytes": 3840
+      },
+      {
+        "path": "evidence/SHA256SUMS.txt",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "502a81e24913d3f0434b4091fe448e96d2682195",
+        "sha256": "1a297797e962efdea740e56689ff4834195b5c95e08ff04c802b0437232e856b",
+        "bytes": 975
+      },
+      {
+        "path": "evidence/SOURCE_BASIS.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "26e34f6857ba62900f06d32063a7983d6dfa11b7",
+        "sha256": "d9b2ed56333320434c142513ad12aeea5e6dca878162b78cd56119b8cbf0fa1b",
+        "bytes": 6466
+      },
+      {
+        "path": "evidence/VALIDATION.md",
+        "content_equal": true,
+        "blob_equal": true,
+        "git_blob_sha1": "b31901c615c1cf950120050a61727cccb2e9b984",
+        "sha256": "5aedf5a7cf29471a82586ed48aa5f0afcb622735b652b3e51a9ae7a42e7aa252",
+        "bytes": 4078
+      }
+    ]
+  },
+  "scope_rule": "This receipt identifies the 12-file bootstrap predecessor. It does not contain or claim the SHA of the later commit storing this receipt or reconciled statuses. Final readback of that later commit is reported externally.",
+  "exclusions": [
+    "Private HQ Calendar receipt",
+    "Original HQ attachments other than the unchanged generic shared Timestamp protocol",
+    "Training data",
+    "Model weights",
+    "Credentials"
+  ],
+  "chatgpt": {
+    "project_creation": "NOT_PERFORMED",
+    "instructions_installation": "NOT_PERFORMED",
+    "sources_installation": "NOT_PERFORMED",
+    "readback_from_target_project": "NOT_TESTED"
+  },
+  "neural": {
+    "training": "NOT_RUN",
+    "export": "NOT_RUN",
+    "target_benchmarks": "NOT_RUN"
+  },
+  "timestamp_target": {
+    "state": "NOT_TESTED",
+    "adoption": "NOT_RECORDED",
+    "calendar_authorization": "UNSET",
+    "github_recovery_authorization": "UNSET"
+  }
+}
