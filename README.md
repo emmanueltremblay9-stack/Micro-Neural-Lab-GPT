@@ -1,6 +1,6 @@
 # Dirty Studyo — Micro Neural Lab
 
-**Version :** 0.1.1 — GITHUB_INTEGRATED / CHATGPT_NOT_INSTALLED  
+**Version :** 0.1.2 — GITHUB_INTEGRATED / CHATGPT_PROJECT_OBSERVED  
 **Nom :** nom de travail proposé  
 **Date de préparation :** 2026-10-20 — America/Toronto  
 **Objet :** Project ChatGPT spécialisé dans la création de micro-réseaux neuronaux, avec gouvernance canonique sur GitHub.
@@ -21,7 +21,8 @@ Le domaine inclut les MLP, CNN compacts, modèles temporels, autoencodeurs et po
 | Corpus et champ Instructions | Produits ; voir le rapport de validation |
 | Compte GitHub connecté | Identifié par le connecteur pendant cette préparation |
 | Intégration GitHub | Socle de 12 fichiers intégré et relu au SHA consigné ; reçu ajouté dans cette révision |
-| Projet ChatGPT et champ installé | NON EFFECTUÉS / non vérifiés dans la destination |
+| Project ChatGPT | EXISTENCE OBSERVÉE ; nom affiché : Micro Neural Lab |
+| Champ Instructions, sources et lecture GitHub depuis le Project | NOT_VERIFIED / NOT_TESTED |
 | Modèle entraîné ou benchmark | NOT_RUN ; cette livraison construit le projet |
 | Timestamp de cette nouvelle cible | NOT_TESTED ; adoption et écritures non autorisées |
 
@@ -36,6 +37,10 @@ Historique v0.1.0 : le dossier était préparé, sans intégration distante. L�
 - Socle vérifié : `603384eb7ce6d029eeab9279cc2be3fc3c4206eb` ; voir [le reçu d’intégration](evidence/GITHUB_INTEGRATION.json). Ce SHA identifie le socle antérieur relu, pas le commit contenant son reçu.
 
 Le manifeste est l’index des sources et des états. Ce dépôt est désormais le lieu canonique de la gouvernance, après relecture du socle. Une pièce jointe au Project est un instantané identifié par sa provenance ; aucune synchronisation permanente n’est présumée. La proposition privée initiale est conservée comme historique dans les décisions.
+
+## Observation du Project ChatGPT — 21 octobre 2026
+
+Le Project **Micro Neural Lab** et une conversation d’accueil sont accessibles. L’existence est vérifiée ; les Instructions enregistrées, le contenu de Sources et la lecture GitHub depuis ce Project ne sont pas encore vérifiés. Voir [evidence/CHATGPT_PROJECT_ACCESS.md](evidence/CHATGPT_PROJECT_ACCESS.md). Le lien de conversation n’est pas publié dans ce dépôt public.
 
 ## Contenu à utiliser
 
@@ -67,7 +72,7 @@ Aucune licence de diffusion n’est choisie par défaut. Les documents ont été
 
 ### 2. ChatGPT
 
-Créer un Project intitulé **Dirty Studyo — Micro Neural Lab** si ce nom convient, puis installer le contenu intégral de `PROJECT_INSTRUCTIONS.txt` dans son champ Instructions. Conserver le LF final du fichier lorsque le champ le permet et vérifier le contenu enregistré ; si l’interface le transforme, relever cette différence et recompter la représentation sauvegardée.
+Le Project **Micro Neural Lab** existe et est accessible. Vérifier d’abord les Instructions déjà enregistrées, puis installer le contenu intégral de `PROJECT_INSTRUCTIONS.txt` seulement si absent ou si une correction compatible est nécessaire. Ne pas effacer une configuration existante sans comparaison. Conserver le LF final du fichier lorsque le champ le permet et vérifier le contenu enregistré ; si l’interface le transforme, relever cette différence et recompter la représentation sauvegardée.
 
 Rendre le dépôt accessible par le connecteur GitHub disponible dans ce Project. Vérifier par une vraie lecture du manifeste et d’un fichier au commit attendu. Les limites et possibilités du compte doivent être observées dans cette destination ; ce dossier n’affirme aucun quota ni accès automatique.
 

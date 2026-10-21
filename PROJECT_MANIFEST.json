@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "document_version": "0.1.1",
+  "document_version": "0.1.2",
   "document_role": "SOURCE_INDEX_AND_INTEGRATION_PROFILE",
-  "document_status": "GITHUB_INTEGRATED_CHATGPT_NOT_INSTALLED",
+  "document_status": "GITHUB_INTEGRATED_CHATGPT_PROJECT_OBSERVED_SETTINGS_UNVERIFIED",
   "prepared_on": "2026-10-20",
   "timezone": "America/Toronto",
   "project": {
@@ -12,7 +12,8 @@
     "official_project_id_status": "UNKNOWN",
     "owner": "OblixorPrime",
     "mission": "Créer, entraîner, évaluer, réduire et intégrer des micro-réseaux neuronaux spécialisés.",
-    "detailed_operating_adoption": "NOT_RECORDED"
+    "detailed_operating_adoption": "NOT_RECORDED",
+    "observed_chatgpt_display_name": "Micro Neural Lab"
   },
   "github": {
     "authenticated_account_observed": "emmanueltremblay9-stack",
@@ -39,13 +40,17 @@
   },
   "chatgpt": {
     "project_locator": null,
-    "project_creation_state": "NOT_PERFORMED",
-    "instructions_installation_state": "NOT_PERFORMED",
-    "sources_installation_state": "NOT_PERFORMED",
+    "project_creation_state": "OBSERVED_EXISTING",
+    "instructions_installation_state": "NOT_VERIFIED",
+    "sources_installation_state": "NOT_VERIFIED",
     "github_readback_state": "NOT_TESTED",
     "instructions_master_path": "PROJECT_INSTRUCTIONS.txt",
     "instructions_codepoint_limit": 8000,
-    "file_snapshots_rule": "Pièces jointes = instantanés identifiés ; aucune synchronisation automatique établie."
+    "file_snapshots_rule": "Pièces jointes = instantanés identifiés ; aucune synchronisation automatique établie.",
+    "project_locator_status": "USER_SUPPLIED_LINK_WITHHELD_FROM_PUBLIC_REPOSITORY",
+    "project_observed_display_name": "Micro Neural Lab",
+    "project_observed_date_local": "2026-10-21",
+    "project_access_evidence": "evidence/CHATGPT_PROJECT_ACCESS.md"
   },
   "canonical_roles": {
     "instructions": "PROJECT_INSTRUCTIONS.txt",
@@ -125,7 +130,8 @@
     "behavioral_tests": "NOT_RUN",
     "training_runs": "NOT_RUN",
     "target_benchmarks": "NOT_RUN",
-    "github_integration": "evidence/GITHUB_INTEGRATION.json"
+    "github_integration": "evidence/GITHUB_INTEGRATION.json",
+    "chatgpt_project_access": "evidence/CHATGPT_PROJECT_ACCESS.md"
   },
   "maintenance": {
     "update_trigger": "Changement réel de rôle, destination, version ou état prouvé.",
