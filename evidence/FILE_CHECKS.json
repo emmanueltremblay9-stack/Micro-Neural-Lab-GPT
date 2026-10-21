@@ -1,0 +1,109 @@
+{
+  "package_version": "0.1.1",
+  "checked_at_utc": "2026-10-21T04:00:20Z",
+  "scope": "Current local content checks; remote evidence refers only to the explicitly identified predecessor commit.",
+  "instructions": {
+    "code_points": 7978,
+    "ceiling": 8000,
+    "margin": 22,
+    "utf8_bytes": 8319,
+    "final_lf": true,
+    "normalization_performed": false,
+    "sha256": "b6476acc085ca5e02b8058120c8eb0efe8320c3fe33de5e8209ab7ff1e4670f3",
+    "verdict": "PASS_SIZE"
+  },
+  "manifest": {
+    "json_valid": true,
+    "source_paths_exist": true,
+    "unique_canonical_roles": true,
+    "single_work_queue": true,
+    "canonical_remote_identified": true,
+    "visibility": "public",
+    "target_timestamp_inactive": true
+  },
+  "timestamp_copy": {
+    "sha256": "a0fc66bd17873b732be08fd26165d5f47afeb5b0e82e7d3cbe0cb4977821061a",
+    "byte_identical": true
+  },
+  "initial_v010_archive_preserved": true,
+  "initial_v010_instructions_preserved": true,
+  "internal_markdown_links_checked": 9,
+  "input_file_measurements": [
+    {
+      "path": "DECISIONS.md",
+      "bytes": 6719,
+      "unicode_code_points": 6441,
+      "sha256": "5119eaecb90672012711e7d0815ec8df6e1a8ee0345c3bee1cb3fa76a2700684",
+      "git_blob_sha1": "ae3f955e3dce0397312dbafca85e528c1a765c7d"
+    },
+    {
+      "path": "NEURAL_ENGINEERING.md",
+      "bytes": 15702,
+      "unicode_code_points": 15004,
+      "sha256": "20fa68f1dc99aa68a57a800dc7f72679f9a9820541f478c71d8e19cba4d99868",
+      "git_blob_sha1": "016fdb427c5994a9e8e971044c44f8a6f7df27b8"
+    },
+    {
+      "path": "PROJECT_CHARTER.md",
+      "bytes": 10283,
+      "unicode_code_points": 9836,
+      "sha256": "653dc565366131f411a295d994df6e166599398b8a02f67bf6bced7482e5eac6",
+      "git_blob_sha1": "ea723032367321a07fad6a8dab4fcf16f5de666a"
+    },
+    {
+      "path": "PROJECT_INSTRUCTIONS.txt",
+      "bytes": 8319,
+      "unicode_code_points": 7978,
+      "sha256": "b6476acc085ca5e02b8058120c8eb0efe8320c3fe33de5e8209ab7ff1e4670f3",
+      "git_blob_sha1": "4333b97591bb56d65358c4709215e771a0f91dc0"
+    },
+    {
+      "path": "PROJECT_MANIFEST.json",
+      "bytes": 5436,
+      "unicode_code_points": 5405,
+      "sha256": "40df585232362978ea891b42c23913ab899546ecaf04dd5db366513205cbb520",
+      "git_blob_sha1": "c8d060398c22b424a8849e5d796e16b378503069"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8991,
+      "unicode_code_points": 8641,
+      "sha256": "fb8d505b03eedab6ba45d067dcf7bd75cfb9f2b934a910aac1916692f098cbc2",
+      "git_blob_sha1": "4bdadcd23450cb98a5d8ff98a7992b37322b57fd"
+    },
+    {
+      "path": "TIMESTAMP_MACHINE_SHARED_PROJECT_SOURCE_v1.3.0.md",
+      "bytes": 24461,
+      "unicode_code_points": 23442,
+      "sha256": "a0fc66bd17873b732be08fd26165d5f47afeb5b0e82e7d3cbe0cb4977821061a",
+      "git_blob_sha1": "b55b29d5222f693510bb1339ce2153693f85643c"
+    },
+    {
+      "path": "WORK_QUEUE.md",
+      "bytes": 3484,
+      "unicode_code_points": 3326,
+      "sha256": "626b15cab873552c51671b8777b94318d2b9c7dc5fe64e044789bc03bb1c4878",
+      "git_blob_sha1": "5730e2e2e4ea5a96f4edc72a2a7f9d1fb9a96106"
+    },
+    {
+      "path": "evidence/SOURCE_BASIS.md",
+      "bytes": 6466,
+      "unicode_code_points": 6236,
+      "sha256": "d9b2ed56333320434c142513ad12aeea5e6dca878162b78cd56119b8cbf0fa1b",
+      "git_blob_sha1": "26e34f6857ba62900f06d32063a7983d6dfa11b7"
+    },
+    {
+      "path": "evidence/VALIDATION.md",
+      "bytes": 4078,
+      "unicode_code_points": 3923,
+      "sha256": "5aedf5a7cf29471a82586ed48aa5f0afcb622735b652b3e51a9ae7a42e7aa252",
+      "git_blob_sha1": "b31901c615c1cf950120050a61727cccb2e9b984"
+    }
+  ],
+  "github_integration": "PENDING_READBACK",
+  "verified_predecessor_commit_sha": null,
+  "chatgpt_integration": "NOT_PERFORMED",
+  "behavioral_tests": "NOT_RUN",
+  "training": "NOT_RUN",
+  "target_benchmarks": "NOT_RUN"
+}
