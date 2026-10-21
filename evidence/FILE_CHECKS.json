@@ -1,7 +1,7 @@
 {
-  "package_version": "0.1.1",
+  "package_version": "0.1.2",
   "checked_at_utc": "2026-10-21T04:11:35Z",
-  "scope": "Current local content checks; remote evidence refers only to the explicitly identified predecessor commit.",
+  "scope": "Mechanical follow-up: maintain hashes for changed governance files and the Project existence observation. The earlier v0.1.1 validation and neural tests are not superseded or promoted.",
   "instructions": {
     "code_points": 7978,
     "ceiling": 8000,
@@ -27,7 +27,7 @@
   },
   "initial_v010_archive_preserved": true,
   "initial_v010_instructions_preserved": true,
-  "internal_markdown_links_checked": 10,
+  "internal_markdown_links_checked": 11,
   "input_file_measurements": [
     {
       "path": "DECISIONS.md",
@@ -35,6 +35,34 @@
       "unicode_code_points": 6441,
       "sha256": "5119eaecb90672012711e7d0815ec8df6e1a8ee0345c3bee1cb3fa76a2700684",
       "git_blob_sha1": "ae3f955e3dce0397312dbafca85e528c1a765c7d"
+    },
+    {
+      "path": "evidence/CHATGPT_PROJECT_ACCESS.md",
+      "bytes": 1526,
+      "unicode_code_points": 1476,
+      "sha256": "ed48c1c521795682dc70be9071ea50f0c63cc98e208fb7dd1502b088d886f8b7",
+      "git_blob_sha1": "5b48f74b91b9b5d711773184009239ae48f36402"
+    },
+    {
+      "path": "evidence/GITHUB_INTEGRATION.json",
+      "bytes": 5866,
+      "unicode_code_points": 5866,
+      "sha256": "6b0c7a0488462f9bb36a1fc6100e8cea259ef6ffd7b8d349324408d8b4723cc7",
+      "git_blob_sha1": "cc5b96dafc9b6abedc9d8d08ab47160a3a3a8cd7"
+    },
+    {
+      "path": "evidence/SOURCE_BASIS.md",
+      "bytes": 6663,
+      "unicode_code_points": 6428,
+      "sha256": "6b2e12d9da7c8c656ae1c138f3099743328b74124aa5afde7db251cd13195a8b",
+      "git_blob_sha1": "492938be8cd976b763f3800d3701da45df298513"
+    },
+    {
+      "path": "evidence/VALIDATION.md",
+      "bytes": 4252,
+      "unicode_code_points": 4094,
+      "sha256": "2459fc7e229d38cb1c735f5459dc354a1fa18d6d4f55ce4ef03595833aba14ec",
+      "git_blob_sha1": "f2fc1a5747ac8cbe72d1af7f5c49085ed86e3ee4"
     },
     {
       "path": "NEURAL_ENGINEERING.md",
@@ -59,17 +87,17 @@
     },
     {
       "path": "PROJECT_MANIFEST.json",
-      "bytes": 5820,
-      "unicode_code_points": 5789,
-      "sha256": "660427f05f8f4a0c2121068e8860533f2eb7766ff58ccfbc92c3fc47c12276af",
-      "git_blob_sha1": "efd0fbb078e19629e64fd277b473ba204f02201f"
+      "bytes": 6229,
+      "unicode_code_points": 6198,
+      "sha256": "4c23af7ca996f1abc6344a97159afbfd8b108d0864d44c8ec44b733b01326cb6",
+      "git_blob_sha1": "2bd8803653179e06f131be55dd3a96dd8665ffe7"
     },
     {
       "path": "README.md",
-      "bytes": 9140,
-      "unicode_code_points": 8779,
-      "sha256": "879df92a9c60f235304938f67246955686f854ac76dfd1b50cedb8e4b42b7e24",
-      "git_blob_sha1": "e4cc1124b6e1f66e0e4a6b9e80b412778a1fb8bc"
+      "bytes": 9795,
+      "unicode_code_points": 9417,
+      "sha256": "894a289ea44a7b5f98c57b8223cc11a3a77c932d366c442451ce66a425010da6",
+      "git_blob_sha1": "01fe969b23630052159180c8b4317a0c0592caff"
     },
     {
       "path": "TIMESTAMP_MACHINE_SHARED_PROJECT_SOURCE_v1.3.0.md",
@@ -80,37 +108,19 @@
     },
     {
       "path": "WORK_QUEUE.md",
-      "bytes": 3732,
-      "unicode_code_points": 3576,
-      "sha256": "90ed0e870d33eb5e663ac29017542b0491adf818638f6d0ad9f0f98eb396aa33",
-      "git_blob_sha1": "7652e0448fa0e2427df79fc6806baa6361a11a04"
-    },
-    {
-      "path": "evidence/GITHUB_INTEGRATION.json",
-      "bytes": 5866,
-      "unicode_code_points": 5866,
-      "sha256": "6b0c7a0488462f9bb36a1fc6100e8cea259ef6ffd7b8d349324408d8b4723cc7",
-      "git_blob_sha1": "cc5b96dafc9b6abedc9d8d08ab47160a3a3a8cd7"
-    },
-    {
-      "path": "evidence/SOURCE_BASIS.md",
-      "bytes": 6663,
-      "unicode_code_points": 6428,
-      "sha256": "6b2e12d9da7c8c656ae1c138f3099743328b74124aa5afde7db251cd13195a8b",
-      "git_blob_sha1": "492938be8cd976b763f3800d3701da45df298513"
-    },
-    {
-      "path": "evidence/VALIDATION.md",
-      "bytes": 4252,
-      "unicode_code_points": 4094,
-      "sha256": "2459fc7e229d38cb1c735f5459dc354a1fa18d6d4f55ce4ef03595833aba14ec",
-      "git_blob_sha1": "f2fc1a5747ac8cbe72d1af7f5c49085ed86e3ee4"
+      "bytes": 3787,
+      "unicode_code_points": 3625,
+      "sha256": "dd4defa8b377cf3cb88716a8fd40a44094b68961bd8b2bb821a130d29bc515ca",
+      "git_blob_sha1": "2d0aac4132653b3ad58f474211cba88600f3cea8"
     }
   ],
-  "github_integration": "VERIFIED_PREDECESSOR_RECONCILIATION_PENDING_FINAL_READBACK",
+  "github_integration": "PROJECT_EXISTENCE_FOLLOWUP_COMMIT_REQUIRES_FINAL_READBACK",
   "verified_predecessor_commit_sha": "603384eb7ce6d029eeab9279cc2be3fc3c4206eb",
-  "chatgpt_integration": "NOT_PERFORMED",
+  "chatgpt_integration": "PROJECT_OBSERVED_SETTINGS_NOT_VERIFIED",
   "behavioral_tests": "NOT_RUN",
   "training": "NOT_RUN",
-  "target_benchmarks": "NOT_RUN"
+  "target_benchmarks": "NOT_RUN",
+  "followup_date_local": "2026-10-21",
+  "followup_observation": "PROJECT_CHATGPT_EXISTS; INSTRUCTIONS_AND_SOURCES_NOT_VERIFIED",
+  "followup_predecessor_commit_sha": "cee68171b5d37fc564d6b493e9b8361b0c7c93ef"
 }
